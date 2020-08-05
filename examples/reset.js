@@ -6,9 +6,8 @@ var mailGenerator = new Mailgen({
     product: {
         // Appears in header & footer of e-mails
         name: 'Mailgen',
-        link: 'https://mailgen.js/'
-        // Optional logo
-        // logo: 'https://mailgen.js/img/logo.png'
+        link: 'https://zavamed.com',
+        logo: 'assets/logo.svg'
     }
 });
 

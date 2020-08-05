@@ -72,7 +72,7 @@ if (locals.action) {
     .email-masthead_name {
       font-size: 16px;
       font-weight: bold;
-      color: #2F3133;
+      color: #0F62F4;
       text-decoration: none;
       text-shadow: 0 1px 0 white;
     }
@@ -103,7 +103,7 @@ if (locals.action) {
       text-align: center;
     }
     .email-footer p {
-      color: #AEAEAE;
+      color: rgba(0, 0, 0, 0.56);
     }
     .body-action {
       width: 100%;
@@ -162,22 +162,26 @@ if (locals.action) {
     }
     p {
       margin-top: 0;
-      color: #74787E;
+      color: rgba(0, 0, 0, 0.56);
       font-size: 16px;
       line-height: 1.5em;
     }
     p.sub {
-      font-size: 12px;
+      font-size: 14px;
     }
     p.center {
       text-align: center;
+    }
+
+    p.left {
+      text-align: left;
     }
 
     /* Data table ------------------------------ */
     .data-table-title {
       width: 100%;
       margin: 0;
-      font-size: 17px;
+      font-size: 18px;
       padding: 20px 0 15px 0;
     }
     .data-wrapper {
@@ -385,10 +389,10 @@ if (locals.action) {
           </tr>
           <tr>
             <td>
-              <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
+              <table class="email-footer" align="left" width="570" cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="content-cell">
-                    <p class="sub center">
+                    <p class="sub left">
                       <%- product.copyright %>
                     </p>
                   </td>
