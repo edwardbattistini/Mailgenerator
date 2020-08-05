@@ -25,8 +25,8 @@ var email = {
                 text: '422069',
             },
         },
-        signature: 'Sincerely',
-        outro: 'Need help, or have questions? Just reply to this email, we\'d love to help.'
+        outro: 'Need help, or have questions? Just reply to this email, we\'d love to help.',
+        signature: 'Sincerely' 
     }
 };
 
